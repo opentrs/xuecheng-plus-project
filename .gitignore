@@ -3,7 +3,7 @@
 .idea/
 # Log file
 *.log
-
+.fastRequest/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**
 !**/src/test/**
