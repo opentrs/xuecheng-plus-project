@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xuecheng.content.mapper.CourseCategoryMapper">
+  <resultMap id="BaseResultMap" type="com.xuecheng.content.model.po.CourseCategory">
+    <!--@mbg.generated-->
+    <!--@Table xcplus_db.course_category-->
+    <id column="id" jdbcType="VARCHAR" property="id" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="label" jdbcType="VARCHAR" property="label" />
+    <result column="parentid" jdbcType="VARCHAR" property="parentid" />
+    <result column="is_show" jdbcType="TINYINT" property="isShow" />
+    <result column="orderby" jdbcType="INTEGER" property="orderby" />
+    <result column="is_leaf" jdbcType="TINYINT" property="isLeaf" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated-->
+    id, `name`, `label`, parentid, is_show, orderby, is_leaf
+  </sql>
+</mapper>
